@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/img_section"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_section"
+        android:layout_gravity="center_horizontal"
+        android:text="111111111111111111111"
+        android:textColor="@color/cardview_light_background"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_section"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="2222222222"/>
+
+</FrameLayout>

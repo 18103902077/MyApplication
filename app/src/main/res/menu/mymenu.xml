@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="资讯">
+        <menu>
+            <group android:id="@+id/group1">
+                <item
+                    android:checkable="true"
+                    android:id="@+id/zhihu"
+                    android:icon="@mipmap/ic_drawer_zhihu"
+                    android:title="知乎日报" />
+                <item
+                    android:checkable="true"
+                    android:id="@+id/wechat"
+                    android:icon="@mipmap/ic_drawer_wechat"
+                    android:title="微信精选" />
+                <item
+                    android:checkable="true"
+                    android:id="@+id/gank"
+                    android:icon="@mipmap/ic_drawer_gank"
+                    android:title="干货集中营" />
+                <item
+                    android:checkable="true"
+                    android:id="@+id/gold"
+                    android:icon="@mipmap/ic_drawer_gold"
+                    android:title="稀土掘金" />
+                <item
+                    android:checkable="true"
+                    android:id="@+id/v2ex"
+                    android:icon="@mipmap/ic_drawer_vtex"
+                    android:title="V2EX" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="选项">
+        <menu>
+            <group android:id="@+id/group2">
+                <item
+                    android:checkable="true"
+                    android:id="@+id/love"
+                    android:icon="@mipmap/ic_drawer_like"
+                    android:title="收藏" />
+                <item
+                    android:checkable="true"
+                    android:id="@+id/setting"
+                    android:icon="@mipmap/ic_drawer_setting"
+                    android:title="设置" />
+                <item
+                    android:checkable="true"
+                    android:id="@+id/about"
+                    android:icon="@mipmap/ic_drawer_about"
+                    android:title="关于" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

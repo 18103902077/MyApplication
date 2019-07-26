@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VtexNodeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_bar"
+        android:fitsSystemWindows="true"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_node"
+            android:layout_width="match_parent"
+            android:paddingStart="12dp"
+            android:layout_height="match_parent" />
+       <!-- <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/old_text"
+            android:background="@color/cardview_shadow_start_color"/>-->
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/old_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Geek"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="14sp"
+            android:paddingStart="12dp"
+            android:background="@color/node_bg"/>
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
